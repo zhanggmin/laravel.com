@@ -52,7 +52,7 @@
 	<script src="/assets/js/viewport-units-buggyfill.js"></script>
 	<script>window.viewportUnitsBuggyfill.init();</script>
     <script>
-        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
+        var _gaq=[['_setAccount','UA-53903425-2'],['_trackPageview']];
         (function(d,t){
             var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
