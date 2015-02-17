@@ -1,5 +1,13 @@
 @extends('app')
 
+@section('title')
+{{{ make_doc_title($content) }}} - Laravel 中文文档
+@stop
+
+@section('description')
+{{{ make_doc_excerpt($content) }}}
+@stop
+
 @section('content')
 <nav id="slide-menu" class="slide-menu" role="navigation">
 	

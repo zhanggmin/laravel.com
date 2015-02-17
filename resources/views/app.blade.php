@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Laravel - 为网页艺术家创造的 PHP 框架</title>
+	<title>@section('title')Laravel 中国 - Laravel 为网页艺术家创造的 PHP 框架@show</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="author" content="Laravel 中国">
-	<meta name="description" content="Laravel 中文文档, 致力于推动 Laravel, php-fig 等国外 PHP 新技术, 新理念在中国的发展.">
+	<meta name="description" content="@section('description')Laravel 中文文档, 致力于推动 Laravel, php-fig 等国外 PHP 新技术, 新理念在中国的发展.@show">
 	<meta name="keywords" content="laravel中国,laravel中文,laravel框架中文,laravel文档,laravel框架中国,laravel中文文档">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--[if lte IE 9]>
