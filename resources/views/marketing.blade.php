@@ -105,7 +105,7 @@ class Purchase implements ShouldBeQueued {
 			</div><!-- /.block -->
 			<div class="block even">
 				<div class="text">
-					<h2>為了你的团队量身打造。</h2>
+					<h2>为了你的团队量身打造。</h2>
 					<p>无论你是独自开发, 还是二十人的团队, Laravel 都能让你耳目一新. 使用 <a href="/docs/migrations">Migration</a> 和 <a href="/docs/schema">结构生成器</a> 让团队里面的每一个人都能同步 Laravel 数据库.</p>
 				</div>
 				<div class="media">
@@ -130,7 +130,7 @@ Migrated: 2015_01_13_162508_create_servers_table
 			<div class="block odd">
 				<div class="text">
 					<h2>现代化的工具集, 仿佛在施展魔术.</h2>
-					<p>透过 <a href="/docs/eloquent">神奇的 ORM</a>, 轻松上手的 <a href="/docs/routing">路由器</a>, 强大的 <a href="/docs/queues">队列操作类库</a>, 以及 <a href="/docs/authentication">简便的用户认证系统</a>, 这些工具让你感受到现代化 PHP 的高可维护性和便捷性. 我们尽力打造这些小东西, 只为了帮助你构建伟大的应用.
+					<p>通过 <a href="/docs/eloquent">神奇的 ORM</a>, 轻松上手的 <a href="/docs/routing">路由器</a>, 强大的 <a href="/docs/queues">队列操作类库</a>, 以及 <a href="/docs/authentication">简便的用户认证系统</a>, 这些工具让你感受到现代化 PHP 的高可维护性和便捷性. 我们尽力打造这些小东西, 只为了帮助你构建伟大的应用.
 				</div>
 				<div class="media">
 
@@ -174,7 +174,7 @@ Route::get('/user/{id}', function($id)
 				<a href="https://forge.laravel.com">
 					<img src="/assets/img/forge-logo.png" alt="Forge">
 				</a>
-				<p>瞬间将 PHP 应用发布到 Linode、DigitalOcean 或其他平台上。拥有一次 Push 直接部署 PHP 5.6、HHVM、隊列, 以及任何你打造伟大应用所需要的东西</p>
+				<p>瞬间将 PHP 应用发布到 Linode、DigitalOcean 或其他平台上。拥有一次 Push 直接部署 PHP 5.6、HHVM、队列, 以及任何你打造伟大应用所需要的东西</p>
 				<p>几分钟内发布你的应用!</p>
 			</div>
 		</div>
