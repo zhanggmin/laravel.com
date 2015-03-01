@@ -45,6 +45,16 @@ class DocsController extends Controller {
 
 		$content = $this->docs->get($version, $page ?: 'installation');
 
+		$section = '';
+
+		//this is convenient for switch the same doc to different version
+		//if such doc does not exist, it will return to the specific version root page.
+		if ($this->docs->sectionExists($version, $page)) {
+			$section .= '/'.$page;
+		} elseif ( ! is_null($page)) {
+			return redirect('/docs/'.$version);
+		}
+
 		if (is_null($content)) {
 			abort(404);
 		}
@@ -54,6 +64,7 @@ class DocsController extends Controller {
 			'content' => $content,
 			'currentVersion' => $version,
 			'versions' => $this->getDocVersions(),
+			'currentSection' => $section,
 		]);
 	}
 
