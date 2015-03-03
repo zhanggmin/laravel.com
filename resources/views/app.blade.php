@@ -9,7 +9,7 @@
 	<meta name="keywords" content="laravel,laravel中国,laravel中文,laravel框架中文,laravel文档,laravel框架中国,laravel中文文档">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--[if lte IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="/assets/css/laravel.css">
 </head>
