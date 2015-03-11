@@ -32,8 +32,8 @@
 <div class="docs-wrapper container">
 
 	<section class="sidebar">
+		<span>文档更新于: {{$update_date}}</span>
 		{!! $index !!}
-		<span>（更新日期: {{$update_date}}）</span>
 	</section>
 
 	<article>
