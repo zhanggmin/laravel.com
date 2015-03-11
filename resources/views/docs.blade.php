@@ -10,7 +10,7 @@
 
 @section('content')
 <nav id="slide-menu" class="slide-menu" role="navigation">
-	
+
 	<div class="brand">
 		<a href="/">
 			<img src="/assets/img/laravel-logo-white.png" height="50">
@@ -33,6 +33,7 @@
 
 	<section class="sidebar">
 		{!! $index !!}
+		<span>（更新日期: {{$update_date}}）</span>
 	</section>
 
 	<article>
