@@ -1053,6 +1053,12 @@ pre.line-numbers > code {
   100% {
     opacity: 1; } }
 
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  color: #f4645f; }
+
 .btn {
   border: none;
   border-radius: 3px;
@@ -1435,6 +1441,11 @@ nav.main {
     line-height: 1.5; }
     .sidebar a:hover {
       color: #e74430; }
+  .sidebar span {
+    font-size: 14px;
+    color: #ADADAD;
+    margin: 20px 0 0 0;
+    font-family: "Microsoft YaHei"; }
 
 @media (max-width: 1080px) {
   .sidebar {
@@ -1571,3 +1582,6 @@ body.the-404 .contain {
   body.the-404 .contain .content, body.the-404 .contain .media {
     display: table-cell;
     vertical-align: middle; }
+
+
+/*# sourceMappingURL=laravel.css.map */

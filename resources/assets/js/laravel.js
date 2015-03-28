@@ -41,8 +41,13 @@ $(function() {
 
   // gheading links
   $('.docs-wrapper').find('a[name]').each(function () {
-        var anchor = $('<a href="#' + this.name + '">');
-        $(this).parent().next('h2').wrapInner(anchor);
-    })
+    var anchor = $('<a href="#' + this.name + '">');
+    $(this).parent().next('h2').wrapInner(anchor);
+  })
+
+  // set up scrollUp.
+  $.scrollUp({
+        scrollText: '返回顶部', 
+    });
 
 });
