@@ -1053,11 +1053,12 @@ pre.line-numbers > code {
   100% {
     opacity: 1; } }
 
-#scrollUp {
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  color: #f4645f; }
+@media screen and (min-width: 1200px) {
+  #scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: #f4645f; } }
 
 .btn {
   border: none;
