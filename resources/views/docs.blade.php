@@ -23,7 +23,8 @@
 	</ul>
 
 	<div class="slide-docs-nav">
-		<h2>Documentation</h2>
+		<h2>文档</h2>
+		<span>文档更新于: {{$update_date}}</span>
 		{!! $index !!}
 	</div>
 
