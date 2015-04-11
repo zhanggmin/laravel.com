@@ -22,7 +22,7 @@ home
 
 <section class="panel statement light">
 	<div class="content">
-		<h1>喜爱优雅的代码吗? 我们也一样 ;-)</h1>
+		<h1>喜爱优雅的代码吗？我们也一样 ;-)</h1>
 		<p>为网页艺术家创造的 PHP 框架</p>
 		<div class='browser-window'>
 			<div class='top-bar'>
