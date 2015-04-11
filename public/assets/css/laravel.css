@@ -1,3 +1,4 @@
+@import url(http://fonts.useso.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic,700italic);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -322,7 +323,7 @@ td, th {
 
 body {
   color: #525252;
-  font-family: lato-regular, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   background: #fff url('/assets/img/cloud-bar.png') repeat-x;
   padding-top: 10px;
