@@ -87,6 +87,7 @@ class DocsController extends Controller {
 	protected function getDocVersions()
 	{
 		return [
+			'5.1' => '5.1',
 			'5.0' => '5.0',
 			'4.2' => '4.2'
 		];
