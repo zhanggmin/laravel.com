@@ -24,8 +24,7 @@ function markdown($text) {
 }
 
 get('/', function() {
-	// return view('marketing');
-    return '<h1>Not Found. Resolve Domain Error.</h1>';
+	 return view('marketing');
 });
 
 get('docs', 'DocsController@showRootPage');
