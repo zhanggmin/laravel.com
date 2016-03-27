@@ -88,7 +88,6 @@ class DocsController extends Controller {
 	{
 		return [
 			'5.1' => '5.1',
-			'5.0' => '5.0',
 			'4.2' => '4.2'
 		];
 	}
