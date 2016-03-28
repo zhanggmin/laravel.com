@@ -22,8 +22,8 @@ home
 
 <section class="panel statement light">
 	<div class="content">
-		<h1>喜爱优雅的代码吗？我们也一样 ;-)</h1>
-		<p>为网页艺术家创造的 PHP 框架</p>
+		<h1>Laravel 让我们书写优雅的代码</h1>
+		<p>为代码艺术家创造的 PHP 框架</p>
 		<div class='browser-window'>
 			<div class='top-bar'>
 				<div class='circles'>
@@ -64,14 +64,14 @@ class Idea extends Eloquent {
 </section>
 
 <section class="panel features dark" id="features">
-	<h1>有人提到快速开发吗 ?</h1>
+	<h1>全栈框架，旨在提高开发效率</h1>
 	<p>短时间内交付优雅的项目代码.</p>
 		<div class="blocks stacked">
 			<div class="block odd">
 				<div class="text">
 					<h2>简洁明了, 优雅的语法.</h2>
 
-					<p>想要源代码优雅、简约、且易读? 你会发现完全符合你的需求, 因为 Laravel 是专门为你设计的,  如果需要任何入门帮助, 请查阅  <a href="https://laracasts.com">Laracasts</a> 还有我们 <a href="/docs">优秀的文档</a>.</p>
+					<p>想要源代码优雅、简约、且易读? 你会发现完全符合你的需求, 因为 Laravel 是专门为你设计的,  如果需要任何入门帮助, 请查阅  <a href="https://laracasts.com">Laracasts</a> 还有我们 <a href="/docs">详尽的文档</a>.</p>
 				</div>
 				<div class="media">
 
@@ -106,7 +106,7 @@ class Purchase implements ShouldBeQueued {
 			<div class="block even">
 				<div class="text">
 					<h2>为了你的团队量身打造。</h2>
-					<p>无论你是独自开发, 还是二十人的团队, Laravel 都能让你耳目一新. 使用 <a href="/docs/migrations">Migration</a> 和 <a href="/docs/schema">结构生成器</a> 让团队里面的每一个人都能同步 Laravel 数据库.</p>
+					<p>无论你是独自开发, 还是二十人的团队, Laravel 都能让你耳目一新。使用 <a href="/docs/migrations">Migration</a> 和 <a href="/docs/schema">结构生成器</a> 让团队里面的每一个人都能同步 Laravel 数据库。</p>
 				</div>
 				<div class="media">
 					<div class="terminal-window">
@@ -129,7 +129,7 @@ Migrated: 2015_01_13_162508_create_servers_table
 			</div><!-- /.block -->
 			<div class="block odd">
 				<div class="text">
-					<h2>现代化的工具集, 仿佛在施展魔术.</h2>
+					<h2>现代化的工具集, 仿佛在施展魔术</h2>
 					<p>通过 <a href="/docs/eloquent">神奇的 ORM</a>, 轻松上手的 <a href="/docs/routing">路由器</a>, 强大的 <a href="/docs/queues">队列操作类库</a>, 以及 <a href="/docs/authentication">简便的用户认证系统</a>, 这些工具让你感受到现代化 PHP 的高可维护性和便捷性. 我们尽力打造这些小东西, 只为了帮助你构建伟大的应用.
 				</div>
 				<div class="media">
