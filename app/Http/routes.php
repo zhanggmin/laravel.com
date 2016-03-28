@@ -29,3 +29,18 @@ get('/', function() {
 
 get('docs', 'DocsController@showRootPage');
 get('docs/{version}/{page?}', 'DocsController@show');
+
+get('/translate', function() {
+
+		$files = File::files('/home/vagrant/laravel-china/resources/docs/docstw');
+
+		foreach ($files as $key => $file) {
+				$operator = opencc_open("tw2sp.json"); //传入配置文件名
+		 		$content= File::get($file);
+				$newcontent = opencc_convert($content, $operator);
+				opencc_close($operator);
+
+				$newfile = '/home/vagrant/laravel-china/resources/docs/tws/' . pathinfo($file, PATHINFO_FILENAME) . '.md';
+				File::put($newfile, $newcontent);
+		}
+});
