@@ -33,7 +33,15 @@
 <div class="docs-wrapper container">
 
 	<section class="sidebar">
-		<span>文档更新于: {{$update_date}}</span>
+
+
+		<a href="https://github.com/laravel-china/docs" target="_blank" style="    font-weight: bold;
+    line-height: 30px;
+    color: #948D8D;">
+		<i class="fa fa-github-alt"></i>
+			Fork me on GitHub
+		</a>
+
 		{!! $index !!}
 	</section>
 
