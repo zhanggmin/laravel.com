@@ -7,11 +7,8 @@ html {
 
 body {
 	color: $color__gray;
-	font-family: $font;
-	font-size: 16px;
 	background: #fff url('/assets/img/cloud-bar.png') repeat-x;
 	padding-top: 10px;
-	-webkit-font-smoothing: antialiased;
 }
 
 // h1, h2, h3, h4, h5, h6, p {
@@ -20,10 +17,6 @@ body {
 // 	margin-bottom: 1.5em;
 // }
 
-.container {
-	max-width: 1080px;
-	margin: 0 auto;
-}
 
 a {
 	color: $color__salmon;

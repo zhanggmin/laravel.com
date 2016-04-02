@@ -322,15 +322,8 @@ td, th {
 
 body {
   color: #525252;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
   background: #fff url('/assets/img/cloud-bar.png') repeat-x;
-  padding-top: 10px;
-  -webkit-font-smoothing: antialiased; }
-
-.container {
-  max-width: 1080px;
-  margin: 0 auto; }
+  padding-top: 10px; }
 
 a {
   color: #f4645f;
@@ -8449,7 +8442,6 @@ body {
     padding: 0;
     list-style: none;
     font-size: 16px;
-    font-weight: bold;
     line-height: 1.5;
     padding-bottom: 50px;
     border-bottom: 1px solid #f0f2f1; }
