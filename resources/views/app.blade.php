@@ -12,6 +12,11 @@
 		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="/assets/css/laravel.css">
+	<style media="screen">
+		body {
+		  display: none;
+		}
+	</style>
 </head>
 <body class="@yield('body-class', 'docs') language-php">
 
@@ -57,6 +62,11 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)
         }(document,'script'));
+
+				$(window).load(function() {
+				  // When the page has loaded
+				  $("body").fadeIn(300);
+				});
     </script>
 </body>
 </html>
