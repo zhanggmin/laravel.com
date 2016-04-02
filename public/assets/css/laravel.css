@@ -8522,8 +8522,7 @@ code[class*="language-"], pre[class*="language-"] {
 
 blockquote {
   font-size: inherit;
-  border-left: none;
-  font-weight: bold; }
+  border-left: none; }
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
   background: #FFF7E8;
@@ -8542,7 +8541,8 @@ blockquote {
   margin: 10px 0 20px;
   padding: 10px 15px;
   border: dashed 1px;
-  border-left: dashed 1px !important; }
+  border-left: dashed 1px !important;
+  padding-bottom: 0px; }
 
 body.docs {
   background-color: #ebeced;
@@ -8576,6 +8576,15 @@ body.docs {
     margin-top: 22px; }
   body.docs .sidebar span {
     font-size: 12px; }
+
+body.docs .sidebar {
+  border-right: 1px solid #f0f2f1;
+  width: 240px;
+  float: left;
+  padding: 35px;
+  background-color: #FFEDED;
+  margin-left: -15px;
+  padding-left: 38px; }
 
 body.the-404 .contain {
   padding: 50px 0;

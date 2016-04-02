@@ -2,6 +2,7 @@
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Contracts\Cache\Repository as Cache;
+use App;
 
 class Documentation {
 
@@ -60,15 +61,25 @@ class Documentation {
 	 */
 	public function get($version, $page)
 	{
+		// Development convenient
+		if (App::isLocal()) {
+			return $this->getContentFromFS($version, $page);
+		}
+
 		return $this->cache->remember('docs.'.$version.'.'.$page, 5, function() use ($version, $page) {
-			$path = base_path('resources/docs/'.$version.'/'.$page.'.md');
-
-			if ($this->files->exists($path)) {
-				return $this->replaceLinks($version, markdown($this->files->get($path)));
-			}
-
-			return null;
+			return $this->getContentFromFS($version, $page);
 		});
+	}
+
+	public function getContentFromFS($version, $page)
+	{
+		$path = base_path('resources/docs/'.$version.'/'.$page.'.md');
+
+		if ($this->files->exists($path)) {
+			return $this->replaceLinks($version, markdown($this->files->get($path)));
+		}
+
+		return null;
 	}
 
 	/**
