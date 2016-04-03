@@ -65,7 +65,7 @@
 
 				$(window).load(function() {
 				  // When the page has loaded
-				  $("body").fadeIn(300);
+				  $("body").fadeIn(10);
 				});
     </script>
 </body>
