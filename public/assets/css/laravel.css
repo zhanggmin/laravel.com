@@ -8619,7 +8619,8 @@ body.docs.nightmode {
     background: #1E3B50; }
   body.docs.nightmode code[class*="language-"], body.docs.nightmode pre[class*="language-"] {
     text-shadow: none;
-    color: #D8D8D8; }
+    color: #D8D8D8;
+    background: transparent; }
   body.docs.nightmode .token.operator, body.docs.nightmode .token.entity, body.docs.nightmode .token.url, body.docs.nightmode .language-css .token.string, body.docs.nightmode .style .token.string {
     color: #E0D7E6; }
   body.docs.nightmode .token.function {
@@ -8639,7 +8640,7 @@ body.docs.nightmode {
     color: #B7B7B7; }
   body.docs.nightmode .btn {
     background: #6D6C6C; }
-  body.docs.nightmode p code {
+  body.docs.nightmode code {
     background: #279BD8;
     color: #DCD8D8; }
   body.docs.nightmode blockquote {

@@ -277,6 +277,7 @@ body.docs.nightmode{
     code[class*="language-"], pre[class*="language-"] {
         text-shadow: none;
         color: #D8D8D8;
+        background: transparent;
     }
     .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
         color: #E0D7E6;
@@ -306,7 +307,7 @@ body.docs.nightmode{
         background: #6D6C6C;
     }
 
-    p code {
+    code {
         background: #279BD8;
         color: #DCD8D8;
     }
