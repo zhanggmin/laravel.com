@@ -24,7 +24,7 @@ home
 	<div class="content">
 
 		<h1>Laravel 让我们书写优雅的代码</h1>
-		<p>为代码艺术家创造的 PHP 框架</p>
+		<p>为 Web 艺术家创造的 PHP 框架</p>
 
 		<br>
 		<div class="buttons">
