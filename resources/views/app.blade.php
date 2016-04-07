@@ -18,7 +18,7 @@
 		}
 	</style>
 </head>
-<body class="@yield('body-class', 'docs') language-php">
+<body class="@yield('body-class', 'docs') language-php {{ in_nightmode() ? 'nightmode' : '' }}">
 
 	<span class="overlay"></span>
 

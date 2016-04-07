@@ -13,7 +13,15 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass('laravel.scss', 'public/assets/css')
-        .scripts(['jquery.js', 'plugins/prism.js', 'plugins/bootstrap.js', 'plugins/scotchPanels.js', 'plugins/scrollUp.js', 'laravel.js'],
+        .scripts([
+            'jquery.js',
+            'plugins/prism.js',
+            'plugins/bootstrap.js',
+            'plugins/scotchPanels.js',
+            'plugins/scrollUp.js',
+            'plugins/cookie.js',
+            'laravel.js'
+        ],
         'public/assets/js/laravel.js',
         'resources/assets/js/'
     	);

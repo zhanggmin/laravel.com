@@ -12,3 +12,7 @@ function make_doc_title($value)
     $code = preg_match($regex, $value, $matches);
     return $matches[1];
 }
+function in_nightmode()
+{
+    return (Request::is('docs/*') && isset($_COOKIE['nightmode']) && $_COOKIE['nightmode'] == 'yes');
+}

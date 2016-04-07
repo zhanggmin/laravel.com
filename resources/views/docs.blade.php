@@ -25,6 +25,8 @@
 	<div class="slide-docs-nav">
 		<h2>文档</h2>
 		<span>文档更新于: {{$update_date}}</span>
+		<br>
+		<a href="https://github.com/laravel-china/docs" target="_blank" style="font-weight: bold;line-height: 30px;color: #948D8D;"><i class="fa fa-github-alt"></i> Fork me on GitHub</a>
 		{!! $index !!}
 	</div>
 
@@ -34,13 +36,9 @@
 
 	<section class="sidebar">
 
-
-		<a href="https://github.com/laravel-china/docs" target="_blank" style="    font-weight: bold;
-    line-height: 30px;
-    color: #948D8D;">
-		<i class="fa fa-github-alt"></i>
-			Fork me on GitHub
-		</a>
+		<div class="header">
+			<a type="button" id="turnofflight" class="btn btn-primary btn-lg btn-block"><i class="fa fa-lightbulb-o"></i> <i class="fa fa-star-o"></i> 夜间模式 </a>
+		</div>
 
 		{!! $index !!}
 	</section>
