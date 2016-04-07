@@ -13,8 +13,14 @@
 	<![endif]-->
 	<link rel="stylesheet" href="/assets/css/laravel.css">
 	<style media="screen">
-		body {
+		div.main-content {
 		  display: none;
+		}
+		.loading-effect {
+			position: fixed;
+			left: 50%;
+			top:300px;
+		    z-index: -1;
 		}
 	</style>
 </head>
@@ -22,36 +28,52 @@
 
 	<span class="overlay"></span>
 
-	<nav class="main">
-		<div class="container">
-			<a href="/" class="brand">
-				<img src="/assets/img/laravel-logo.png" height="30">
-				Laravel
-			</a>
+	<div class="loading-effect">
+		<div class="loader-inner line-scale">
+		      <div></div>
+		      <div></div>
+		      <div></div>
+		      <div></div>
+		      <div></div>
+		  </div>
+	</div>
 
-			<div class="responsive-sidebar-nav">
-				<a href="#" class="toggle-slide menu-link btn">&#9776;</a>
+
+	<div class="main-content">
+
+		<nav class="main">
+			<div class="container">
+				<a href="/" class="brand">
+					<img src="/assets/img/laravel-logo.png" height="30">
+					Laravel
+				</a>
+
+				<div class="responsive-sidebar-nav">
+					<a href="#" class="toggle-slide menu-link btn">&#9776;</a>
+				</div>
+
+				@if (Request::is('docs*') && isset($currentVersion))
+					@include('partials.switcher')
+				@endif
+
+				<ul class="main-nav">
+					@include('partials.main-nav')
+				</ul>
 			</div>
+		</nav>
 
-			@if (Request::is('docs*') && isset($currentVersion))
-				@include('partials.switcher')
-			@endif
+		@yield('content')
 
-			<ul class="main-nav">
+		<footer class="main">
+			<ul>
 				@include('partials.main-nav')
 			</ul>
-		</div>
-	</nav>
+			<p>Laravel is a trademark of Taylor Otwell. Copyright &copy; Taylor Otwell.</p>
+			<p class="less-significant"><a href="http://jackmcdade.com">Design by Jack McDade</a></p>
+		</footer>
 
-	@yield('content')
+	</div>
 
-	<footer class="main">
-		<ul>
-			@include('partials.main-nav')
-		</ul>
-		<p>Laravel is a trademark of Taylor Otwell. Copyright &copy; Taylor Otwell.</p>
-		<p class="less-significant"><a href="http://jackmcdade.com">Design by Jack McDade</a></p>
-	</footer>
 	<script src="/assets/js/laravel.js"></script>
 	<script src="/assets/js/viewport-units-buggyfill.js"></script>
 	<script>window.viewportUnitsBuggyfill.init();</script>
@@ -63,10 +85,10 @@
             s.parentNode.insertBefore(g,s)
         }(document,'script'));
 
-				$(window).load(function() {
-				  // When the page has loaded
-				  $("body").fadeIn(10);
-				});
+		$(window).load(function() {
+		  // When the page has loaded
+		  $(".main-content").fadeIn(10);
+		});
     </script>
 </body>
 </html>
