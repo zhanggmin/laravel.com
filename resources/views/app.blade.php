@@ -59,7 +59,7 @@
         var _gaq=[['_setAccount','{{ getenv('GA_Tracking_ID') }}'],['_trackPageview']];
         (function(d,t){
             var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            g.src=('http://7xijlf.com2.z0.glb.qiniucdn.com/js/analytics.js');
             s.parentNode.insertBefore(g,s)
         }(document,'script'));
 

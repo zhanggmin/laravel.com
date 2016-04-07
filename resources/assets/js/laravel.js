@@ -50,7 +50,7 @@ $(function() {
         scrollText: '返回顶部',
     });
 
-    $("#turnofflight").click(function() {
+    $(".turnofflight").click(function() {
         if($('body.docs').hasClass('nightmode'))
         {
             $("body.docs").removeClass('nightmode');

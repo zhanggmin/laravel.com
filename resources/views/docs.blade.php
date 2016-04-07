@@ -25,7 +25,7 @@
 	<div class="slide-docs-nav">
 		<h2>文档</h2>
 
-		<a type="button" id="turnofflight" class=""><i class="fa fa-lightbulb-o"></i> <i class="fa fa-star-o"></i> 夜间模式 </a>
+		<a type="button" class="turnofflight"><i class="fa fa-lightbulb-o"></i> <i class="fa fa-star-o"></i> 夜间模式 </a>
 		{!! $index !!}
 	</div>
 
@@ -36,7 +36,7 @@
 	<section class="sidebar">
 
 		<div class="header">
-			<a type="button" id="turnofflight" class="btn btn-primary btn-lg btn-block"><i class="fa fa-lightbulb-o"></i> <i class="fa fa-star-o"></i> 夜间模式 </a>
+			<a type="button" class="btn btn-primary btn-lg btn-block turnofflight"><i class="fa fa-lightbulb-o"></i> <i class="fa fa-star-o"></i> 夜间模式 </a>
 		</div>
 
 		{!! $index !!}
