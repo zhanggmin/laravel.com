@@ -8620,7 +8620,7 @@ body.docs.nightmode {
   body.docs.nightmode code[class*="language-"], body.docs.nightmode pre[class*="language-"] {
     text-shadow: none;
     color: #D8D8D8;
-    background: transparent; }
+    background: #1E3B50; }
   body.docs.nightmode .token.operator, body.docs.nightmode .token.entity, body.docs.nightmode .token.url, body.docs.nightmode .language-css .token.string, body.docs.nightmode .style .token.string {
     color: #E0D7E6; }
   body.docs.nightmode .token.function {
