@@ -28,9 +28,9 @@ home
 
 		<br>
 		<div class="buttons">
-		  <a href="http://laravel-china.app/docs/5.1" target="_blank" class="btn btn-default">Laravel 5.1 文档</a>
-		  <a href="https://phphub.org/" target="_blank" class="btn btn-default">Laravel 中文社区</a>
-		  <a href="https://cs.phphub.org/" target="_blank" class="btn btn-default">Laravel 速查表</a>
+		  <a href="http://laravel-china.org/docs/5.1" class="btn btn-default">Laravel 5.1 文档</a>
+		  <a href="https://phphub.org/" class="btn btn-default">Laravel 中文社区</a>
+		  <a href="https://cs.phphub.org/" class="btn btn-default">Laravel 速查表</a>
 		</div>
 
 		<div class='browser-window'>
