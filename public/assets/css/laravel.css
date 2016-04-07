@@ -8656,6 +8656,8 @@ body.docs.nightmode {
     color: #D0D0D0; }
   body.docs.nightmode ul ul, body.docs.nightmode ol ul {
     list-style: none; }
+  body.docs.nightmode .slide-menu .slide-main-nav a, body.docs.nightmode .slide-menu .slide-docs-nav a {
+    color: #fff; }
 
 body.the-404 .contain {
   padding: 50px 0;
