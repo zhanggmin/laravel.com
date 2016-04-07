@@ -362,6 +362,9 @@ blockquote {
   blockquote a {
     color: #fff; }
 
+.buttons a.btn.btn-default {
+  margin-right: 18px; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
