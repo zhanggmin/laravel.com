@@ -10641,7 +10641,10 @@ body.docs .sidebar {
   body.docs .scotch-panel-wrapper {
     margin-top: 0px; }
   body {
-    padding-top: 0px; } }
+    padding-top: 0px; }
+  .buttons a.btn.btn-default {
+    margin-right: 15px;
+    margin-top: 15px; } }
 
 body.docs .sidebar .header a:hover {
   color: #fff; }
