@@ -10715,6 +10715,9 @@ body.docs.nightmode {
   body.docs.nightmode .slide-menu .slide-main-nav a, body.docs.nightmode .slide-menu .slide-docs-nav a {
     color: #fff; }
 
+.docs article blockquote a:hover {
+  color: #FF8079; }
+
 body.the-404 .contain {
   padding: 50px 0;
   display: table;
