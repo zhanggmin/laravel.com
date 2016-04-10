@@ -126,16 +126,18 @@ blockquote {
     border-radius: 4px!important;
 }
 blockquote {
-    background: #f4645f;
+    background: #fff;
     color: #fff;
     border-radius: 3px;
     margin: 10px 0 20px;
     padding: 10px 15px;
-    border: dashed 1px;
-    border-left: dashed 1px!important;
+    border: dashed 1px #E8A2A2;
+    border-left: solid 5px rgb(245, 113, 111);
     padding-bottom: 0px;
 }
-
+blockquote, blockquote a {
+    color: rgb(234, 78, 78);
+}
 
 // structure
 body.docs {
@@ -319,6 +321,11 @@ body.docs.nightmode{
     blockquote {
         background: #0B80BD;
     }
+
+    blockquote, blockquote a {
+        color: #fff;
+    }
+
     footer.main {
         background: #56585A;
     }

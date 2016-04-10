@@ -10569,14 +10569,17 @@ blockquote {
   border-radius: 4px !important; }
 
 blockquote {
-  background: #f4645f;
+  background: #fff;
   color: #fff;
   border-radius: 3px;
   margin: 10px 0 20px;
   padding: 10px 15px;
-  border: dashed 1px;
-  border-left: dashed 1px !important;
+  border: dashed 1px #E8A2A2;
+  border-left: solid 5px #f5716f;
   padding-bottom: 0px; }
+
+blockquote, blockquote a {
+  color: #ea4e4e; }
 
 body.docs {
   background-color: #ebeced;
@@ -10695,6 +10698,8 @@ body.docs.nightmode {
     color: #DCD8D8; }
   body.docs.nightmode blockquote {
     background: #0B80BD; }
+  body.docs.nightmode blockquote, body.docs.nightmode blockquote a {
+    color: #fff; }
   body.docs.nightmode footer.main {
     background: #56585A; }
   body.docs.nightmode footer.main > ul > li > a {
