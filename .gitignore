@@ -5,7 +5,6 @@
 /build/sami/cache
 /node_modules
 composer.phar
-.env.*
 .DS_Store
 Thumbs.db
 Envoy.blade.php
