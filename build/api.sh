@@ -1,19 +1,19 @@
 #!/bin/bash
 
-cd /home/forge/laravel.com/build/sami
+cd /var/www/laravel-china/build/sami
 
-rm -rf /home/forge/laravel.com/build/sami/build
-rm -rf /home/forge/laravel.com/build/sami/cache
+rm -rf /var/www/laravel-china/build/sami/build
+rm -rf /var/www/laravel-china/build/sami/cache
 
 # Run API Docs
-git clone https://github.com/laravel/framework.git /home/forge/laravel.com/build/sami/laravel
+git clone https://github.com/laravel/framework.git /var/www/laravel-china/build/sami/laravel
 
-php /home/forge/laravel.com/vendor/bin/sami.php update /home/forge/laravel.com/build/sami/sami.php
+php /var/www/laravel-china/vendor/bin/sami.php update /var/www/laravel-china/build/sami/sami.php
 
-cp -r /home/forge/laravel.com/build/sami/build/* /home/forge/laravel.com/public/api
+cp -r /var/www/laravel-china/build/sami/build/* /var/www/laravel-china/public/api
 
-rm -rf /home/forge/laravel.com/build/sami/build
-rm -rf /home/forge/laravel.com/build/sami/cache
+rm -rf /var/www/laravel-china/build/sami/build
+rm -rf /var/www/laravel-china/build/sami/cache
 
 # Cleanup
-rm -rf /home/forge/laravel.com/build/sami/laravel
+rm -rf /var/www/laravel-china/build/sami/laravel
