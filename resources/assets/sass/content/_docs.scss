@@ -361,8 +361,29 @@ body.docs.nightmode{
     .slide-menu .slide-main-nav a, .slide-menu .slide-docs-nav a {
         color:#fff;
     }
+    .sidebar ul li a.active, .sidebar ul li a:hover {
+        color: #FFFFFF;
+        background: #2499D6;
+        text-decoration: none;
+    }
 }
 
 .docs article blockquote a:hover {
     color: #FF8079;
+}
+
+.sidebar ul li{
+    text-align: center;
+}
+
+.sidebar ul li a{
+    padding: 3px 2px;
+
+    display: block;
+}
+
+.sidebar ul li a.active, .sidebar ul li a:hover{
+    color: #FFFFFF;
+    background: #F58D8A;
+    text-decoration: none;
 }

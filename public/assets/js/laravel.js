@@ -1302,4 +1302,7 @@ $(function() {
             Cookies.set('nightmode', 'yes');
         }
     });
+
+    // sidebar nav active state
+    $('.sidebar a[href^="' + location.pathname + '"]').addClass('active');
 });
