@@ -249,6 +249,20 @@ body.docs .sidebar .header a:hover{
     color: #fff;
 }
 
+p code {
+    background: rgba(245, 233, 134, 0.69);
+    color: #E46B67;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+code {
+    padding: 2px 4px;
+    font-size: 100%;
+    color: #E46B67;
+    background-color: rgba(245, 233, 134, 0.69);
+    border-radius: 4px;
+}
+
 // Night mode, color only
 body.docs.nightmode{
     background-color: #56585A;
