@@ -10747,6 +10747,9 @@ body.docs.nightmode {
   background: #F58D8A;
   text-decoration: none; }
 
+blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
+  margin-bottom: 10px; }
+
 body.the-404 .contain {
   padding: 50px 0;
   display: table;
