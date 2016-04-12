@@ -10736,16 +10736,20 @@ body.docs.nightmode {
   color: #FF8079; }
 
 .sidebar ul li {
-  text-align: center; }
+  text-align: left;
+  padding-left: 4px; }
 
 .sidebar ul li a {
   padding: 3px 2px;
-  display: block; }
-
-.sidebar ul li a.active, .sidebar ul li a:hover {
-  color: #FFFFFF;
-  background: #F58D8A;
+  display: block;
   text-decoration: none; }
+
+.sidebar ul li.active a, .sidebar ul li a:hover {
+  color: #FFFFFF; }
+
+.sidebar ul > li > ul > li.active, .sidebar ul > li > ul > li:hover {
+  color: #FFFFFF;
+  background: #F58D8A; }
 
 blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
   margin-bottom: 10px; }

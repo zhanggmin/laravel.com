@@ -1305,7 +1305,7 @@ $(function() {
 
     // sidebar nav active state
     if (location.pathname != '/docs/5.1' && location.pathname != '/docs/5.1/') {
-        $('.sidebar a[href="' + location.pathname + '"]').addClass('active');
+        $('.sidebar a[href="' + location.pathname + '"]').parent().addClass('active');
     }
 
 });
