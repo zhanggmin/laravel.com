@@ -10727,9 +10727,10 @@ body.docs.nightmode {
     list-style: none; }
   body.docs.nightmode .slide-menu .slide-main-nav a, body.docs.nightmode .slide-menu .slide-docs-nav a {
     color: #fff; }
-  body.docs.nightmode .sidebar ul li a.active, body.docs.nightmode .sidebar ul li a:hover {
+  body.docs.nightmode .sidebar ul > li > ul > li.active, body.docs.nightmode .sidebar ul > li > ul > li:hover {
     color: #FFFFFF;
-    background: #2499D6;
+    background: #2499D6; }
+  body.docs.nightmode .sidebar ul li a {
     text-decoration: none; }
 
 .docs article blockquote a:hover {

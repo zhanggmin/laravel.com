@@ -361,11 +361,16 @@ body.docs.nightmode{
     .slide-menu .slide-main-nav a, .slide-menu .slide-docs-nav a {
         color:#fff;
     }
-    .sidebar ul li a.active, .sidebar ul li a:hover {
+
+    .sidebar ul>li>ul>li.active, .sidebar ul>li>ul>li:hover{
         color: #FFFFFF;
         background: #2499D6;
+    }
+ 
+    .sidebar ul li a{
         text-decoration: none;
     }
+
 }
 
 .docs article blockquote a:hover {
