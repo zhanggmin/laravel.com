@@ -279,13 +279,10 @@ body.docs.nightmode{
     }
 
     .docs-wrapper.container {
-        border-top: 1px solid #A5A5A5;
-        -webkit-box-shadow: 1px 2px 62px 3px rgb(117, 115, 115);
-        -moz-box-shadow: 1px 2px 62px 3px rgb(117, 115, 115);
-        box-shadow: 1px 2px 62px 3px rgb(117, 115, 115);
+        border-top: 1px solid #797979;
     }
     .sidebar {
-        border-right: 1px solid #7B7C7D;
+        border-right: 1px solid #797979;
     }
 
     .sidebar, .container {
@@ -366,7 +363,7 @@ body.docs.nightmode{
         color: #FFFFFF;
         background: #2499D6;
     }
- 
+
     .sidebar ul li a{
         text-decoration: none;
     }

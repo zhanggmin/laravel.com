@@ -10675,10 +10675,9 @@ body.docs.nightmode {
   body.docs.nightmode .sidebar a:hover, body.docs.nightmode a:hover {
     color: #30E7EC; }
   body.docs.nightmode .docs-wrapper.container {
-    border-top: 1px solid #A5A5A5;
-    box-shadow: 1px 2px 62px 3px #757373; }
+    border-top: 1px solid #797979; }
   body.docs.nightmode .sidebar {
-    border-right: 1px solid #7B7C7D; }
+    border-right: 1px solid #797979; }
   body.docs.nightmode .sidebar, body.docs.nightmode .container {
     background: #424141; }
   body.docs.nightmode :not(pre) > code[class*="language-"], body.docs.nightmode pre[class*="language-"] {
