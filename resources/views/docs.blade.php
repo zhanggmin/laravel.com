@@ -1,11 +1,15 @@
 @extends('app')
 
 @section('title')
-{{{ make_doc_title($content) }}} - Laravel 中文文档
+Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 @stop
 
 @section('description')
 {{{ make_doc_excerpt($content) }}}
+@stop
+
+@section('keywords')
+{{{ make_doc_title($content) }}},laravel{{ $currentVersion }}文档,laravel{{ $currentVersion }}中文文档,laravel中国,laravel中文,laravel框架中文,laravel文档,laravel框架中国,laravel中文文档
 @stop
 
 @section('content')
