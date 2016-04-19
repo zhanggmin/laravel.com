@@ -10766,6 +10766,10 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 .docs article h1 a.anchor {
   display: none; }
 
+.docs article h1 + ul > li > ul {
+  list-style: none;
+  padding-left: 25px; }
+
 body.the-404 .contain {
   padding: 50px 0;
   display: table;
