@@ -408,3 +408,6 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     text-decoration: none;
     padding-left: 4px;
 }
+.docs article h1 a.anchor {
+    display: none;
+}
