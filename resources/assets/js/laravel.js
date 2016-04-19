@@ -1,3 +1,4 @@
+
 $(function() {
 
   // Smooth scroll to anchor
@@ -68,4 +69,14 @@ $(function() {
         $('.sidebar a[href="' + location.pathname + '"]').parent().addClass('active');
     }
 
+    $('article .main-content').anchorific({
+        navigation: '.anchorific', // position of navigation
+        speed: 200, // speed of sliding back to top
+        anchorClass: 'anchor', // class of anchor links
+        anchorText: '#', // prepended or appended to anchor headings
+        top: '.top', // back to top button or link class
+        spy: true, // scroll spy
+        position: 'append', // position of anchor text
+        spyOffset: 0 // specify heading offset for spy scrolling
+    });
 });

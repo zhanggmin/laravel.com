@@ -58,7 +58,10 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 			 </p>
 		</div>
 
-		{!! $content !!}
+		<div class="main-content">
+			{!! $content !!}
+		</div>
+
 	</article>
 </div>
 @endsection

@@ -20,6 +20,7 @@ elixir(function(mix) {
             'plugins/scotchPanels.js',
             'plugins/scrollUp.js',
             'plugins/cookie.js',
+            'plugins/anchorific.js',
             'laravel.js'
         ],
         'public/assets/js/laravel.js',

@@ -10754,6 +10754,15 @@ body.docs.nightmode {
 blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
   margin-bottom: 10px; }
 
+.docs article h2 a:before {
+  content: none; }
+
+.docs article h2 a.anchor, .docs article a.anchor {
+  color: #f4645f;
+  opacity: .8;
+  text-decoration: none;
+  padding-left: 4px; }
+
 body.the-404 .contain {
   padding: 50px 0;
   display: table;
