@@ -66,6 +66,7 @@ class DocsController extends Controller {
 			'currentVersion' => $version,
 			'versions' => $this->getDocVersions(),
 			'currentSection' => $section,
+			'pager' => $this->docs->getPagerLinks($version),
 		]);
 	}
 

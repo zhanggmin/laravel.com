@@ -49,6 +49,8 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 	<article>
 
 		<div class="alert alert-warning" role="alert">
+
+			<hr>
 			<h4>拥抱 Laravel 5.1 LTS 版本</h4>
 			<p>
 				强烈建议在 2018 年之前使用 Laravel 5.1 来构建项目，Laravel 5.1 是 LTS 的发行版本, 发行于 2015 年 6 月份，自发布起提供两年时间的 Bug 修复（2017 年 6 月）, 3 年时间的安全修复（2018 年 6 月）。
@@ -60,6 +62,20 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 
 		<div class="main-content">
 			{!! $content !!}
+		</div>
+
+		<div class="main-footer" style="border-top:1px dashed rgba(0, 0, 0, 0.1);padding-top: 30px;margin-top:30px">
+			<div class="prev-next-wrap clearfix">
+
+				@if($pager['prev'])
+					<a class="btn btn-default pull-left" href="{{ $pager['prev']['link'] }}"><i class="fa fa-arrow-left"></i> {{ $pager['prev']['text'] }}</a>
+				@endif
+
+			    &nbsp;
+				@if($pager['next'])
+				    <a class="btn btn-default pull-right" href="{{ $pager['next']['link'] }}">{{ $pager['next']['text'] }} <i class="fa fa-arrow-right"></i></a>
+				@endif
+			</div>
 		</div>
 
 	</article>

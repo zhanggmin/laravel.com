@@ -385,7 +385,7 @@ body.docs.nightmode{
     text-decoration: none;
 }
 
-.sidebar ul li.active a, .sidebar ul li a:hover{
+.sidebar ul li.active a, .sidebar ul li a:hover, .docs article .main-footer a{
     color: #FFFFFF;
 }
 
@@ -415,4 +415,8 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 .docs article h1 + ul>li>ul {
     list-style: none;
     padding-left: 25px;
+}
+
+.docs article .main-footer a {
+    text-decoration: none;
 }

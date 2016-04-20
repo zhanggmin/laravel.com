@@ -2,7 +2,7 @@
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Contracts\Cache\Repository as Cache;
-use App;
+use App, Request;
 
 class Documentation {
 
@@ -106,6 +106,45 @@ class Documentation {
 		return $this->files->exists(
 			base_path('resources/docs/'.$version.'/'.$page.'.md')
 		);
+	}
+
+	public function getLinks($version)
+	{
+		return @include(base_path('resources/docs/'.$version.'/links.php'));
+	}
+
+	public function getPagerLinks($version)
+	{
+		$links = $this->getLinks($version);
+		$link = '/' . Request::path();
+		$last_link = null;
+		$matched = false;
+		$data = ['prev' => null, 'next' => null];
+
+		if (!$links) {
+			return $data;
+		}
+
+		foreach ($links as $key => $value)
+		{
+			$value['link'] = $this->replaceLinks($version, $value['link']);
+
+			if ($matched && !$data['next']) {
+				$data['next'] = $value;
+			}
+
+			if ($link == $value['link'] && !$data['prev']) {
+				$data['prev'] = $last_link;
+			}
+
+			if ($link == $value['link']) {
+				$matched = true;
+			}
+
+			$last_link = $value;
+		}
+
+		return $data;
 	}
 
 }
