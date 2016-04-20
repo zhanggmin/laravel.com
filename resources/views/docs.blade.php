@@ -64,7 +64,7 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 			{!! $content !!}
 		</div>
 
-		<div class="main-footer" style="border-top:1px dashed rgba(0, 0, 0, 0.1);padding-top: 30px;margin-top:30px">
+		<div class="main-footer" style="border-top:1px dashed rgba(0, 0, 0, 0.1);padding-top: 30px;margin-top:30px;margin-bottom: 20px;">
 			<div class="prev-next-wrap clearfix">
 
 				@if($pager['prev'])
