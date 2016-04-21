@@ -50,7 +50,6 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 
 		<div class="alert alert-warning" role="alert">
 
-			<hr>
 			<h4>拥抱 Laravel 5.1 LTS 版本</h4>
 			<p>
 				强烈建议在 2018 年之前使用 Laravel 5.1 来构建项目，Laravel 5.1 是 LTS 的发行版本, 发行于 2015 年 6 月份，自发布起提供两年时间的 Bug 修复（2017 年 6 月）, 3 年时间的安全修复（2018 年 6 月）。
