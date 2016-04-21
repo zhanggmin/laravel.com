@@ -10205,9 +10205,7 @@ nav.main {
     .panel.statement h1 {
       font-size: 56px; }
     .panel.statement h1 + p {
-      font-size: 28px;
-      font-weight: 100;
-      -webkit-font-smoothing: subpixel-antialiased; }
+      font-size: 28px; }
     .panel.statement p.caption {
       color: #525252;
       font-size: 18px; }
