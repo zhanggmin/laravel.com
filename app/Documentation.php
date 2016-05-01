@@ -116,7 +116,7 @@ class Documentation {
 	public function getPagerLinks($version)
 	{
 		$links = $this->getLinks($version);
-		$link = '/' . Request::path();
+		$link = '/' . (Request::path() == 'docs/5.1' ? 'docs/5.1/about' : Request::path()  );
 		$last_link = null;
 		$matched = false;
 		$data = ['prev' => null, 'next' => null];
