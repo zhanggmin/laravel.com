@@ -70,6 +70,10 @@
 			</ul>
 			<p>Laravel is a trademark of Taylor Otwell. Copyright &copy; Taylor Otwell.</p>
 			<p class="less-significant"><a href="http://jackmcdade.com">Design by Jack McDade</a></p>
+
+			<p class="less-significant">
+				<a href="http://www.ucloud.cn/?utm_source=zanzhu&utm_campaign=phphub&utm_medium=display&utm_content=yejiao&ytag=phphubyejiao" target="_blank">由 UCloud 赞助  <img src="https://dn-phphub.qbox.me/uploads/images/201605/03/1/dYfOYswiQY.png" width="98" data-toggle="tooltip" data-placement="top" title="本站服务器由 UCloud 赞助"></a>.
+		      </p>
 		</footer>
 
 	</div>
