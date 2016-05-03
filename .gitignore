@@ -9,3 +9,4 @@ composer.phar
 Thumbs.db
 Envoy.blade.php
 .env
+*.css.map

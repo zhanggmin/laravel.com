@@ -420,3 +420,33 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
 .docs article .main-footer a {
     text-decoration: none;
 }
+
+
+@media (min-width: 768px) {
+  body.docs .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  body.docs .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  body.docs .container {
+    width: 1170px;
+  }
+}
+
+
+@media (max-width:1080px) {
+
+	body.docs .sidebar {
+		padding: 25px;
+		width: 200px;
+	}
+    .docs article {
+        padding: 15px 5px 30px;
+    }
+
+}
