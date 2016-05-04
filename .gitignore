@@ -10,3 +10,4 @@ Thumbs.db
 Envoy.blade.php
 .env
 *.css.map
+*.js.map

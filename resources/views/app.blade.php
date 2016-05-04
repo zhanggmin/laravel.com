@@ -96,5 +96,7 @@
 		  $(".main-content").fadeIn(10);
 		});
     </script>
+
+	@yield('script')
 </body>
 </html>

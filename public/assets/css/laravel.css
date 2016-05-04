@@ -11792,6 +11792,46 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
   .docs article {
     padding: 15px 5px 30px; } }
 
+#custom-search-input {
+  margin: 0 0px 20px 0;
+  padding: 0; }
+
+#custom-search-input .form-control {
+  border: 1px solid #E2E2E2; }
+
+#custom-search-input .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  border-radius: 3px;
+  padding: 20px; }
+
+#custom-search-input .search-query + .input-group-btn {
+  position: absolute;
+  right: 1em;
+  top: 6px;
+  width: 1em;
+  height: 1em;
+  font-size: 1em; }
+
+#custom-search-input button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  border-radius: 3px;
+  color: #D9230F; }
+
+.search-query:focus + button {
+  z-index: 3; }
+
 body.the-404 .contain {
   padding: 50px 0;
   display: table;

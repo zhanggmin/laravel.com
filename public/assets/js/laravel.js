@@ -1540,3 +1540,4 @@ $(function() {
         spyOffset: 0 // specify heading offset for spy scrolling
     });
 });
+//# sourceMappingURL=laravel.js.map

@@ -48,6 +48,19 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 
 	<article>
 
+		<div id="custom-search-input">
+			<form id="search-form" action="https://www.bing.com/search?q=site:laravel-china.org" method="get">
+				<div class="input-group col-md-12">
+					<input type="text" class="search-query form-control" name="keyword" placeholder="搜索关键词" />
+					<span class="input-group-btn">
+						<button class="btn btn-danger" type="button" id="search-btn">
+							<i class=" fa fa-search"></i>
+						</button>
+					</span>
+				</div>
+			</form>
+        </div>
+
 		<div class="alert alert-warning" role="alert">
 
 			<h4>拥抱 Laravel 5.1 LTS</h4>
@@ -80,3 +93,19 @@ Laravel {{ $currentVersion }} 中文文档：{{{ make_doc_title($content) }}}
 	</article>
 </div>
 @endsection
+
+@section('script')
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $( "#search-form" ).submit(function( event ) {
+        event.preventDefault();
+        window.open("https://www.bing.com/search?q=site:laravel-china.org/docs/{{ $currentVersion }} " + $( "input[name='keyword']" ).val());
+    });
+    $("#search-btn").click(function(event) {
+        window.open("https://www.bing.com/search?q=site:laravel-china.org/docs/{{ $currentVersion }} " + $( "input[name='keyword']" ).val());
+    });
+});
+
+</script>
+@stop
